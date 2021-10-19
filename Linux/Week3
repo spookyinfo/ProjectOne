@@ -1,0 +1,8 @@
+wget "https://tinyurl.com/3-HW-setup-evidence" && chmod +x ./3-HW-setup-evidence && ./3-HW-setup-evidence
+grep - 0310_win_loss_player_data 0312_win_loss_player_data 0315_win_loss_player_data
+#sort Roulette_Losses | awk -F" " '{print $1, $2}'
+#awk -F" " '{print $1, $2, $5, $6}' 0310_Dealer_schedule 0312_Dealer_schedule 0315_Dealer_schedule | egrep '02:00:00 PM|05|08|11' | grep -i billy | sort
+
+#!/bin/bash
+
+grep "$2" $1_Dealer_schedule | awk -F" " '{print $1, $2, $5, $6}'
