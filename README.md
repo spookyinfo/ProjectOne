@@ -1,7 +1,8 @@
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
-![image](https://user-images.githubusercontent.com/53101711/137861338-07738de0-163d-4897-bef7-3cc86dd04eb8.png)
+
+![image](https://user-images.githubusercontent.com/53101711/137884886-8b67bb5b-d69c-49a8-af78-a07cf645cd4a.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _yml_ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -37,10 +38,10 @@ The configuration details of each machine may be found below.
 
 | **Name**             | **Function**   |  **IP Address**    | **Operating System** |
 |----------------------|----------------|--------------------|----------------------|
-| Jump-Box-Provisioner | Gateway        | 10.2.0.0           | Linux                |
-| Web-1                | Web server     | 10.2.0.1           | Linux                |
-| Web-2                | Web server     | 10.2.0.2           | Linux                |
-| ELK                  | ELK Server     | 10.2.0.3           | Linux                |
+| Jump-Box-Provisioner | Gateway        | 10.0.0.0           | Linux                |
+| Web-1                | Web server     | 10.0.0.1           | Linux                |
+| Web-2                | Web server     | 10.0.0.2           | Linux                |
+| ELK                  | ELK Server     | 10.1.0.3           | Linux                |
 | Load Balancer        | Load Balancer  | Static External IP | Linux                |
 | Workstation          | Access Control | 97.120.30.181      | Windows              |
 
@@ -94,7 +95,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![image](https://user-images.githubusercontent.com/53101711/137857947-6f468aeb-0bd5-493b-9195-0a89c6127a4f.png)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
