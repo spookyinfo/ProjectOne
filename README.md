@@ -75,7 +75,7 @@ The playbook implements the following tasks:
         update_cache: yes
         name: docker.io
         state: present      # Use apt module
-        ```        
+       
 + Increases Virtual Memory  
     ```name: Increase virtual memory
       command: sysctl -w vm.max_map_count=262144      # Use sysctl module
