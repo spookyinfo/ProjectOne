@@ -65,4 +65,3 @@ Command to change ownership of engineer's shared folder to engineer group: sudo 
 Step 4: Lynis Auditing
 Command to install Lynis: sudo apt install Lynis
 Command to see documentation and instructions: man lynis 
-
