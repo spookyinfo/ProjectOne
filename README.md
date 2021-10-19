@@ -75,7 +75,6 @@ The playbook implements the following tasks:
         update_cache: yes  
         name: docker.io  
         state: present      # Use apt module
-        ```
         
 + Increases Virtual Memory  
     ```name: Increase virtual memory  
