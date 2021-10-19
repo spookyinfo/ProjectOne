@@ -6,11 +6,11 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _yml_ file may be used to install only certain pieces of it, such as Filebeat.
 
-+[Ansible Configuration File](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/Ansible.cfg)
-+[DVWA Script](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/DVWA)
-+[ELK Playbook](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/ELK)
-+[Filebeat Playbook](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/Filebeat)
-+[Metricbeat Playbook](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/Metricbeat)
+..*[Ansible Configuration File](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/Ansible.cfg)
+..*[DVWA Script](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/DVWA)
+..*[ELK Playbook](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/ELK)
+..*[Filebeat Playbook](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/Filebeat)
+..*[Metricbeat Playbook](https://github.com/spookyinfo/ProjectOne/blob/main/Ansible/Metricbeat)
  
 
 This document contains the following details:
