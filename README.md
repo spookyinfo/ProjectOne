@@ -79,7 +79,7 @@ The playbook implements the following tasks:
 + Increases Virtual Memory  
     ```name: Increase virtual memory
       command: sysctl -w vm.max_map_count=262144      # Use sysctl module
-      ```  
+
 + Downloads and installs a Docker ELK container  
      ```name: download and launch a docker elk container
      docker_container:
@@ -91,7 +91,7 @@ The playbook implements the following tasks:
           - 5601:5601
           - 9200:9200
           - 5044:5044
-          ```
+
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance:
 
