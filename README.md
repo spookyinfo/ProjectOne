@@ -70,19 +70,19 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 The playbook implements the following tasks:
 
 + Installs Docker  
-     `name: Install docker.io     
-      apt:  
+     `name: Install docker.io`     
+      `apt:  
         update_cache: yes  
         name: docker.io  
         state: present      # Use apt module`
         
 + Increases Virtual Memory  
-    `name: Increase virtual memory  
-      command: sysctl -w vm.max_map_count=262144      # Use sysctl module`
+    `name: Increase virtual memory`  
+      `command: sysctl -w vm.max_map_count=262144      # Use sysctl module`
       
 + Downloads and installs a Docker ELK container  
-     `name: download and launch a docker elk container  
-      docker_container:  
+     `name: download and launch a docker elk container`  
+     `docker_container:  
         name: elk  
         image: sebp/elk:761  
         state: started  
