@@ -112,6 +112,6 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 - Copy the Ansible configuration file to /etc/ansible.
-- Update the hosts file to include the ELK Server 
+- Update the hosts file to include the ELK Server. 
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
 
